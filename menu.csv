@@ -1,0 +1,15 @@
+Category (English),Category (Greek),Product Name (English),Product Name (Greek),Quantity,Price,Currency,Language
+Coffee,Καφές,Espresso,Εσπρέσο,1,2.00,USD,EN
+Coffee,Καφές,Cappuccino,Καπουτσίνο,1,3.00,USD,EN
+Coffee,Καφές,Latte,Λάτε,1,3.50,USD,EN
+Tea,Τσάι,Green Tea,Πράσινο Τσάι,1,2.50,USD,EN
+Tea,Τσάι,Black Tea,Μαύρο Τσάι,1,2.50,USD,EN
+Pastry,Γλυκά,Croissant,Κρουασάν,1,2.00,USD,EN
+Pastry,Γλυκά,Muffin,Μάφιν,1,2.50,USD,EN
+Coffee,Καφές,Espresso,Εσπρέσο,1,2.00,EUR,GR
+Coffee,Καφές,Cappuccino,Καπουτσίνο,1,3.00,EUR,GR
+Coffee,Καφές,Latte,Λάτε,1,3.50,EUR,GR
+Tea,Τσάι,Green Tea,Πράσινο Τσάι,1,2.50,EUR,GR
+Tea,Τσάι,Black Tea,Μαύρο Τσάι,1,2.50,EUR,GR
+Pastry,Γλυκά,Croissant,Κρουασάν,1,2.00,EUR,GR
+Pastry,Γλυκά,Muffin,Μάφιν,1,2.50,EUR,GR
