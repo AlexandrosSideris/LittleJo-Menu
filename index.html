@@ -3,20 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coffee Shop Menu</title>
+    <title>LittleJo Menu</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/LittleJo.jpg" type="image/jpeg">
 </head>
 <body>
     <header>
-        <h1>Coffee Shop Menu</h1>
+        <h1>
+            <img src="images/LittleJo.jpg" alt="Little Jo" class="logo">
+        </h1>
         <div class="language-selector">
-            <button onclick="changeLanguage('EN')">English</button>
-            <button onclick="changeLanguage('GR')">Greek</button>
+            <img src="images/gr.png" alt="Greek" onclick="changeLanguage('GR')" class="flag">
+            <img src="images/en.png" alt="English" onclick="changeLanguage('EN')" class="flag">
         </div>
     </header>
     
     <section id="menu"></section>
-
     <script src="script.js"></script>
 </body>
 </html>

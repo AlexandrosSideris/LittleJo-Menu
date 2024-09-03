@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    loadMenu('EN'); // Load the menu in English by default
+    loadMenu('GR'); // Load the menu in Greek by default
 });
 
 function loadMenu(language) {
@@ -7,36 +7,67 @@ function loadMenu(language) {
         .then(response => response.text())
         .then(data => {
             const menu = parseCSV(data, language);
-            displayMenu(menu, language);
+            displayMenu(menu);
         });
 }
 
 function parseCSV(data, language) {
-    const lines = data.split('\n').slice(1);
+    const lines = data.split('\n').slice(1); // Remove header
     const menu = {};
 
     lines.forEach(line => {
-        const [categoryEN, categoryGR, productEN, productGR, quantity, price, currency, lang] = line.split(',');
+        const [category, productName, productDescription, quantity, price, currency, lang] = line.split(';');
 
         if (lang.trim() === language) {
-            const category = language === 'EN' ? categoryEN.trim() : categoryGR.trim();
-            const productName = language === 'EN' ? productEN.trim() : productGR.trim();
             const productPrice = `${price.trim()} ${currency.trim()}`;
             
             if (!menu[category]) {
                 menu[category] = [];
             }
 
-            menu[category].push({ name: productName, quantity: quantity.trim(), price: productPrice });
+            menu[category].push({ 
+                name: productName, 
+                description: productDescription, 
+                quantity: quantity.trim(), 
+                price: productPrice 
+            });
         }
     });
 
     return menu;
 }
 
-function displayMenu(menu, language) {
+function displayMenu(menu) {
     const menuContainer = document.getElementById('menu');
     menuContainer.innerHTML = '';
+
+    // for (const category in menu) {
+    //     const categoryDiv = document.createElement('div');
+    //     categoryDiv.classList.add('category');
+
+    //     const categoryTitle = document.createElement('h2');
+    //     categoryTitle.textContent = category;
+    //     categoryDiv.appendChild(categoryTitle);
+
+    //     menu[category].forEach(product => {
+    //         const productDiv = document.createElement('div');
+    //         productDiv.classList.add('product');
+
+    //         const productName = document.createElement('span');
+    //         productName.textContent = `${product.name} (${product.quantity})`;
+    //         productDiv.appendChild(productName);
+
+    //         const productDescription = document.createElement('p');
+    //         productDescription.textContent = product.description;
+    //         productDescription.classList.add('description');
+    //         productDiv.appendChild(productDescription);
+
+    //         const productPrice = document.createElement('span');
+    //         productPrice.textContent = product.price;
+    //         productDiv.appendChild(productPrice);
+
+    //         categoryDiv.appendChild(productDiv);
+    //     });
 
     for (const category in menu) {
         const categoryDiv = document.createElement('div');
@@ -50,13 +81,25 @@ function displayMenu(menu, language) {
             const productDiv = document.createElement('div');
             productDiv.classList.add('product');
 
+            const productHeader = document.createElement('div');
+            productHeader.classList.add('product-header');
+
             const productName = document.createElement('span');
-            productName.textContent = `${product.name} (x${product.quantity})`;
-            productDiv.appendChild(productName);
+            productName.textContent = `${product.name} (${product.quantity})`;
+            productName.classList.add('product-name');
+            productHeader.appendChild(productName);
 
             const productPrice = document.createElement('span');
             productPrice.textContent = product.price;
-            productDiv.appendChild(productPrice);
+            productPrice.classList.add('price');
+            productHeader.appendChild(productPrice);
+
+            productDiv.appendChild(productHeader);
+
+            const productDescription = document.createElement('p');
+            productDescription.textContent = product.description;
+            productDescription.classList.add('description');
+            productDiv.appendChild(productDescription);
 
             categoryDiv.appendChild(productDiv);
         });
