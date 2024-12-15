@@ -1,13 +1,13 @@
-"Category;ProductName;Description;Quantity;Price;Currency;Language"
-"Καφές;Εσπρέσσο;;Μονό/Διπλό/Τετραπλό;1,6/1,8/2,6;EUR;GR"
-"Coffee;Espresso;;Single/Double/Quadruble;1,6/1,8/2,6;EUR;EN"
-"Καφές;Καπουτσίνο;;;3,00;EUR;GR"
-"Coffee;Cappuccino;Coffee with steamed milk foam;;3.00;EUR;EN"
-"Τσάι;Πράσινο Τσάι;Αναζωογονητικό και υγιεινό πράσινο τσάι;;2,50;EUR;GR"
-"Tea;Green Tea;Refreshing and healthy green tea;;2.50;EUR;EN"
-"Τσάι;Μαύρο Τσάι;Δυνατό και πλούσιο μαύρο τσάι;;2,50;EUR;GR"
-"Tea;Black Tea;Strong and rich black tea;;2.50;EUR;EN"
-"Γλυκά;Κρουασάν;Τραγανό και βουτυράτο γλυκό;;2,00;EUR;GR"
-"Pastry;Croissant;Flaky and buttery pastry;;2.00;EUR;EN"
-"Γλυκά;Μάφιν;Αφράτο και γλυκό μάφιν;300 gr;;EUR;GR"
-"Pastry;Muffin;Soft and sweet muffin;300 gr;;EUR;EN"
+Category;ProductName;Description;Quantity;Price;Currency;Language
+Καφές;Εσπρέσσο;;Μονό/Διπλό/Τετραπλό;1,6/1,8/2,6;EUR;GR
+Coffee;Espresso;;Single/Double/Quadruble;1,6/1,8/2,6;EUR;EN
+Καφές;Καπουτσίνο;;;3,00;EUR;GR
+Coffee;Cappuccino;Coffee with steamed milk foam;;3.00;EUR;EN
+Τσάι;Πράσινο Τσάι;Αναζωογονητικό και υγιεινό πράσινο τσάι;;2,50;EUR;GR
+Tea;Green Tea;Refreshing and healthy green tea;;2.50;EUR;EN
+Τσάι;Μαύρο Τσάι;Δυνατό και πλούσιο μαύρο τσάι;;2,50;EUR;GR
+Tea;Black Tea;Strong and rich black tea;;2.50;EUR;EN
+Γλυκά;Κρουασάν;Τραγανό και βουτυράτο γλυκό;;2,00;EUR;GR
+Pastry;Croissant;Flaky and buttery pastry;;2.00;EUR;EN
+Γλυκά;Μάφιν;Αφράτο και γλυκό μάφιν;300 gr;;EUR;GR
+Pastry;Muffin;Soft and sweet muffin;300 gr;;EUR;EN
