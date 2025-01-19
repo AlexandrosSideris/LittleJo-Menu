@@ -1,13 +1,181 @@
 Category;ProductName;Description;Quantity;Price;Currency;Language
-Καφές;Εσπρέσσο;;Μονό/Διπλό/Τετραπλό;1,6/1,8/2,6;EUR;GR
-Coffee;Espresso;;Single/Double/Quadruble;1,6/1,8/2,6;EUR;EN
-Καφές;Καπουτσίνο;;;3,00;EUR;GR
-Coffee;Cappuccino;Coffee with steamed milk foam;;3.00;EUR;EN
-Τσάι;Πράσινο Τσάι;Αναζωογονητικό και υγιεινό πράσινο τσάι;;2,50;EUR;GR
-Tea;Green Tea;Refreshing and healthy green tea;;2.50;EUR;EN
-Τσάι;Μαύρο Τσάι;Δυνατό και πλούσιο μαύρο τσάι;;2,50;EUR;GR
-Tea;Black Tea;Strong and rich black tea;;2.50;EUR;EN
-Γλυκά;Κρουασάν;Τραγανό και βουτυράτο γλυκό;;2,00;EUR;GR
-Pastry;Croissant;Flaky and buttery pastry;;2.00;EUR;EN
-Γλυκά;Μάφιν;Αφράτο και γλυκό μάφιν;300 gr;;EUR;GR
-Pastry;Muffin;Soft and sweet muffin;300 gr;;EUR;EN
+Καφές;Espresso;;Μονό/Διπλό/Τριπλό/Τετραπλό;1,70/1,90/2,50/2,70;EUR;GR
+Coffee;Espresso;;Single/Double/Triple/Quadruble;1,70/1,90/2,50/2,70;EUR;EN
+Καφές;Americano;;Μονό/Διπλό/Τριπλό/Τετραπλό;1,80/2,00/2,60/2,80;EUR;GR
+Coffee;Americano;;Single/Double/Triple/Quadruble;1,80/2,00/2,60/2,80;EUR;EN
+Καφές;Cappuccino;;Μονό/Διπλό/Τριπλό/Τετραπλό;2,00/2,20/3,00/3,20;EUR;GR
+Coffee;Cappuccino;;Single/Double/Triple/Quadruble;2,00/2,20/3,00/3,20;EUR;EN
+Καφές;Machiato;;Μονό/Διπλό/Τριπλό/Τετραπλό;2,00/2,20/3,00/3,20;EUR;GR
+Coffee;Machiato;;Single/Double/Triple/Quadruble;2,00/2,20/3,00/3,20;EUR;EN
+Καφές;Flat White;;Μονό/Διπλό/Τριπλό/Τετραπλό;2,00/2,20/3,00/3,20;EUR;GR
+Coffee;Flat White;;Single/Double/Triple/Quadruble;2,00/2,20/3,00/3,20;EUR;EN
+Καφές;Cappuccino Latte;;Κανονικό/Διπλό;2,20/2,70;EUR;GR
+Coffee;Cappuccino Latte;;Regular/Double;2,20/2,70;EUR;EN
+Καφές;Freddo Espresso;;Κανονικό/Τριπλό/Τετραπλό;2,10/2,80/3,10;EUR;GR
+Coffee;Freddo Espresso;;Regular/Triple/Quadruble;2,10/2,80/3,10;EUR;EN
+Καφές;Freddo Cappuccino;;Κανονικό/Τριπλό/Τετραπλό;2,30/3,00/3,50;EUR;GR
+Coffee;Freddo Cappuccino;;Regular/Triple/Quadruble;2,30/3,00/3,50;EUR;EN
+Καφές;Freddo Cappuccino Latte;;Κανονικό/Τριπλό/Τετραπλό;2,50/3,00/3,50;EUR;GR
+Coffee;Freddo Cappuccino Latte;;Regular/Triple/Quadruble;2,50/3,20/3,70;EUR;EN
+Καφές;Καφές Φίλτρου;;Κανονικό/Μεγάλο;1,70/2,20;EUR;GR
+Coffee;Filter Coffee;;Regular/Large;1,70/2,20;EUR;EN
+Καφές;Καφές Φίλτρου Αρωματικός;;Κανονικό/Μεγάλο;1,70/2,20;EUR;GR
+Coffee;Flavored Filter Coffee;;Regular/Large;2,00/2,50;EUR;EN
+Καφές;Μόκα;;Κανονικό/Μεγάλο;2,70/3,70;EUR;GR
+Coffee;Coffee Mocha;;Regular/Large;2,70/3,70;EUR;EN
+Καφές;Μόκα Καραμέλα;;Κανονικό/Μεγάλο;3,00/3,80;EUR;GR
+Coffee;Coffee Mocha Caramel;;Regular/Large;3,00/3,80;EUR;EN
+Καφές;Ελληνικός Κλασσικός;;Κανονικό/Μεγάλο;1,30/1,70;EUR;GR
+Coffee;Greek Classic;;Regular/Large;1,30/1,70;EUR;EN
+Καφές;Στιγμιαίος Ζεστός/Κρύος;;Κανονικό/Μεγάλο;1,80/2,40;EUR;GR
+Coffee;Instant Coffee Hot/Cold;;Regular/Large;1,80/2,40;EUR;EN
+Καφές;Φυτικό Ρόφημα;;;0,30;EUR;GR
+Coffee;Vegan Drink;;;0,30;EUR;EN
+Καφές;Σιρόπι Γεύση;;;0,50;EUR;GR
+Coffee;Syrup Flavor;;;0,50;EUR;EN
+Καφές;Σαντιγί/Αλκοόλ;;;1,00;EUR;GR
+Coffee;Whipped Cream/Alcohol;;;1,00;EUR;EN
+Non-Coffee;Μαύρο Τσάι Μήλο-Κανέλα;;Ζεστό/Κρύο;1,80/2,20;EUR;GR
+Non-Coffee;Black Tea Apple-Cinnamon;;Hot/Cold;1,80/2,20;EUR;EN
+Non-Coffee;Μαύρο Τσάι English Breakfast;;Ζεστό/Κρύο;1,80/2,20;EUR;GR
+Non-Coffee;Black Tea English Breakfast;;Hot/Cold;1,80/2,20;EUR;EN
+Non-Coffee;Πράσινο Τσάι Τζίντζερ-Λεμόνι;;Ζεστό/Κρύο;1,80/2,20;EUR;GR
+Non-Coffee;Green Tea Ginger-Lemon;;Hot/Cold;1,80/2,20;EUR;EN
+Non-Coffee;Τσάι Φρούτων Τριανταφυλένια Φράουλα;;Ζεστό/Κρύο;2,00/2,20;EUR;GR
+Non-Coffee;Fruit Tea Rosebud Strawberry;;Hot/Cold;2,00/2,20;EUR;EN
+Non-Coffee;Τσάι Φρούτων Ταξίδι Γεύσεων;;Ζεστό/Κρύο;2,00/2,20;EUR;GR
+Non-Coffee;Fruit Tea Trip Flavors;;Hot/Cold;2,00/2,20;EUR;EN
+Non-Coffee;Βότανα Μαινάλου & Πράσινο Τσάι;;Ζεστό/Κρύο;1,80/2,20;EUR;GR
+Non-Coffee;Herbs of Maenalon Mountain & Green Tea;;Hot/Cold;1,80/2,20;EUR;EN
+Non-Coffee;Χαμομήλι Ανθός;;;1,50;EUR;GR
+Non-Coffee;Chamomile Blossom;;;1,50;EUR;EN
+Non-Coffee;Σοκολάτα Classica Ζεστή;;Κανονικό/Μεγάλο;2,40/3,00;EUR;GR
+Non-Coffee;Hot Chocolate Classica;;Regular/Large;2,40/3,00;EUR;EN
+Non-Coffee;Σοκολάτα Λευκή Ζεστή;;Κανονικό/Μεγάλο;2,50/3,00;EUR;GR
+Non-Coffee;Hot White Chocolate;;Regular/Large;2,50/3,00;EUR;EN
+Non-Coffee;Σοκολάτα Fredda;;Κανονικό/Μεγάλο;2,50/3,10;EUR;GR
+Non-Coffee;Chocolate Fredda;;Regular/Large;2,50/3,10;EUR;EN
+Non-Coffee;Κακάο;;Κανονικό/Μεγάλο;1,50/1,80;EUR;GR
+Non-Coffee;Cocoa;;Regular/Large;1,50/1,80;EUR;EN
+Non-Coffee;Τρούφα;;;0,50;EUR;GR
+Non-Coffee;Sprinkles;;;0,50;EUR;EN
+Non-Coffee;Σιρόπι Γεύση;;;0,50;EUR;GR
+Non-Coffee;Syrup Flavor;;;0,50;EUR;EN
+Non-Coffee;Σαντιγί/Αλκοόλ;;;1,00;EUR;GR
+Non-Coffee;Whipped Cream/Alcohol;;;1,00;EUR;EN
+Χυμοί;Φυσικός Χυμός Πορτοκάλι;;;2,70;EUR;GR
+Juices;Natural Orange Juice;;;2,70;EUR;EN
+Χυμοί;Φυσικός Χυμός Ανάμεικτος;;;3,20;EUR;GR
+Juices;Natural Mixed Fruit Juice;;;3,20;EUR;EN
+Χυμοί;Λεμονάδα;;Κρύα/Παγωμένη;3,00/3,40;EUR;GR
+Juices;Lemonade;;Cold/Frozen;3,00/3,40;EUR;EN
+Χυμοί;Βυσσινάδα;;Κρύα/Παγωμένη;3,00/3,40;EUR;GR
+Juices;Sour Cherry Juice;;Cold/Frozen;3,00/3,40;EUR;EN
+Αναψυκτικά;Coca cola / Sprite / Fanta / Schweppes;;330ml;1,60;EUR;GR
+Soft Drinks;Coca cola / Sprite / Fanta / Schweppes;;330ml;1,60;EUR;EN
+Αναψυκτικά;Coca cola;;500ml;1,90;EUR;GR
+Soft Drinks;Coca cola;;500ml;1,90;EUR;EN
+Αναψυκτικά;Fuze Tea;;;2,40;EUR;GR
+Soft Drinks;Fuze Tea;;;2,40;EUR;EN
+Αναψυκτικά;Red Bull;;;2,40;EUR;GR
+Soft Drinks;Red Bull;;;2,40;EUR;EN
+Αναψυκτικά;Monster;;;2,40;EUR;GR
+Soft Drinks;Monster;;;2,40;EUR;EN
+Αναψυκτικά;Λουξ Λεμονάδα;;;1,20;EUR;GR
+Soft Drinks;Λουξ Lemonade;;;1,20;EUR;EN
+Αναψυκτικά;Amita Fun;;;1,00;EUR;GR
+Soft Drinks;Amita Fun;;;1,00;EUR;EN
+Αναψυκτικά;Amita Ροδάκινο;;;1,60;EUR;GR
+Soft Drinks;Amita Peach;;;1,60;EUR;EN
+Αναψυκτικά;Amita Motion;;;1,80;EUR;GR
+Soft Drinks;Amita Motion;;;1,80;EUR;EN
+Αναψυκτικά;Ξυνό Νερό;;250ml;2,00;EUR;GR
+Soft Drinks;Sparkle Water;;250ml;2,00;EUR;EN
+Αναψυκτικά;Νερό;;500ml;0,50;EUR;GR
+Soft Drinks;Water;;500ml;0,50;EUR;EN
+Αναψυκτικά;Νερό;;1,5lt;1,00;EUR;GR
+Soft Drinks;Water;;1,5lt;1,00;EUR;EN
+Αναψυκτικά;Νερό;;750ml;0,80;EUR;GR
+Soft Drinks;Water;;750ml;0,80;EUR;EN
+Αλκοολούχα;Κρασάκι "Κούτσικο" Λευκό-Ροζέ;;;3,90;EUR;GR
+Alcohol Drinks;Wine "Κούτσικο" White-Rose;;;3,90;EUR;EN
+Αλκοολούχα;Λευκός Αφρώδης Οίνος;;;5,10;EUR;GR
+Alcohol Drinks;White Sparkling Wine;;;5,10;EUR;EN
+Αλκοολούχα;Λευκός Αφρώδης Οίνος;;;5,10;EUR;GR
+Alcohol Drinks;White Sparkling Wine;;;5,10;EUR;EN
+Milkshake - Γρανίτα;Milkshake;;;3,50;EUR;GR
+Milkshake - Water Ice;Milkshake;;;3,50;EUR;EN
+Milkshake - Γρανίτα;Γρανίτα;;;3,00;EUR;GR
+Milkshake - Water Ice;Water Ice;;;3,00;EUR;EN
+Milkshake - Γρανίτα;Σιρόπι Γεύση;;;0,50;EUR;GR
+Milkshake - Water Ice;Syrup Flavor;;;0,50;EUR;EN
+Milkshake - Γρανίτα;Σαντιγί;;;1,00;EUR;GR
+Milkshake - Water Ice;Whipped Cream;;;1,00;EUR;EN
+Milkshake - Γρανίτα;Τρούφα;;;0,50;EUR;GR
+Milkshake - Water Ice;Sprinkles;;;0,50;EUR;EN
+Hot Snacks;Σπανακοτυρόπιτα ταψιού;;Χωριάτικο φύλλο, Σπανάκι-Τυρί;2,40;EUR;GR
+Hot Snacks;Spinach pie;;;2,40;EUR;EN
+Hot Snacks;Κοτόπιτα ταψιού;;Χωριάτικο φύλλο, στήθος κοτόπουλο, πιπεριά;2,80;EUR;GR
+Hot Snacks;Chicken pie;;;2,80;EUR;EN
+Hot Snacks;Πατητή γραβιέρα Κρήτης & Κασέρι;;;2,50;EUR;GR
+Hot Snacks;Pastry with graviera of Crete & Kasseri;;;2,50;EUR;EN
+Hot Snacks;Κρουασάν σπέσιαλ Ζαμπόν-Τυρί;;;2,60;EUR;GR
+Hot Snacks;Special pastry with Ham-Cheese;;;2,60;EUR;EN
+Hot Snacks;Πίτσα με αλλαντικά, σαλτσούλα & τυράκι;;;3,00;EUR;GR
+Hot Snacks;Pizza with cured meats, cheese & sauce;;;3,00;EUR;EN
+Hot Snacks;Τυροκούλουρο;;;2,30;EUR;GR
+Hot Snacks;Cheese pastry;;;2,30;EUR;EN
+Hot Snacks;Φωλιά αλλαντικών με σαλτσούλα και τυρί;;;2,90;EUR;GR
+Hot Snacks;Cured meats pastry with sauce and cheese;;;2,90;EUR;EN
+Hot Snacks;Burger με μοσχαρίσιο κιμά, BBQ, καραμελωμένο κρεμμύδι, τσένταρ;;;3,30;EUR;GR
+Hot Snacks;Burger with ground beef, BBQ, caramelized onion, cheddar;;;3,30;EUR;EN
+Hot Snacks;Μπουγάτσα με κρέμα;;;2,20;EUR;GR
+Hot Snacks;Bougatsa with cream;;;2,20;EUR;EN
+Hot Snacks;Μπουγάτσα με κρέμα και πραλίνα;;;3,20;EUR;GR
+Hot Snacks;Bougatsa with cream and praline chocolate;;;3,20;EUR;EN
+Hot Snacks;Brownies;;;3,20;EUR;GR
+Hot Snacks;Brownies;;;3,20;EUR;EN
+Hot Snacks;Τοστ με 2πλο τυράκι ή γαλοπούλα-τυρί;;;2,30;EUR;GR
+Hot Snacks;Toast with double cheese or turkey and cheese;;;2,30;EUR;EN
+Snacks;Κρουασάν Βουτύρου;;;1,80;EUR;GR
+Snacks;Butter Croissant;;;1,80;EUR;EN
+Snacks;Κρουασάν Βουτύρου με extra γέμιση πραλίνα ή μαρμελάδα ή ταχίνι ή αλμυρό;;;2,60;EUR;GR
+Snacks;Butter Croissant filled with praline chocolate or marmelade or tahini or cured turkey and cheese ;;;2,60;EUR;EN
+Cold Snacks;Βιεννέζικη μπαγκέτα;;Τυρί gouda, καπνιστό χοιρινό, sauce μαγιονέζα;3,20;EUR;GR
+Cold Snacks;Viennese Baguette;;Gouda cheese, smoked pork, sauce mayonnaise;3,20;EUR;EN
+Cold Snacks;Αραβική γαλοπούλα;;Τυρί gouda, καπνιστή γαλοπούλα, light sauce;2,70;EUR;GR
+Cold Snacks;Arabic pita with turkey;;Gouda cheese, smoked turkey, light sauce;2,70;EUR;EN
+Cold Snacks;Αραβική κοτόπουλο;;Mix τυριών, φιλέτο κοτόπουλο, ψιλοκομμένη ρόκα, mustard curry sauce;3,30;EUR;GR
+Cold Snacks;Arabic pita with chicken;;Mixed cheese, chicken fillet, chopped rocket, mustard curry sauce;3,30;EUR;EN
+Cold Snacks;Τριγωνάκι γαλοπούλα;;Καπνιστό τυρί, καπνιστή γαλοπούλα, ψιλοκομμένη ρόκα, light garlic sauce;3,00;EUR;GR
+Cold Snacks;Toast with turkey;;Smoked cheese, smoked turkey, chopped rocket, light garlic sauce;3,00;EUR;EN
+Cold Snacks;Φρουτοσαλάτα;;;3,40;EUR;GR
+Cold Snacks;Fruit Salad;;;3,40;EUR;EN
+Cold Snacks;Sauce μαγιονέζα;;;0,70;EUR;GR
+Cold Snacks;Sauce mayonnaise;;;0,70;EUR;EN
+Cold Snacks;Γιαούρτι με δημητριακά;;;2,50;EUR;GR
+Cold Snacks;Yogurt with cereal;;;2,50;EUR;EN
+Cold Snacks;Δημητριακά;;;0,70;EUR;GR
+Cold Snacks;Cereal;;;0,70;EUR;EN
+Cold Snacks;Πραλίνα / Ταχίνι / Μαρμελάδα;;;0,70;EUR;GR
+Cold Snacks;Praline Chocolate / Tahini / Marmelade;;;0,70;EUR;EN
+Cold Snacks;Μέλι μερίδα;;;0,15;EUR;GR
+Cold Snacks;Honey portion;;;0,15;EUR;EN
+Κουλούρια;Κλασσικό αφράτο;;;0,70;EUR;GR
+Simits;Classic fluffy sesame ring;;;0,70;EUR;EN
+Κουλούρια;Ολικής;;;0,90;EUR;GR
+Simits;Whole wheat sesame ring;;;0,90;EUR;EN
+Κουλούρια;Gouda-Μπέικον;;;1,60;EUR;GR
+Simits;Gouda-Bacon simit ring;;;1,60;EUR;EN
+Κουλούρια;Σταφίδα-Κανέλα-Γαρίφαλο;;;1,00;EUR;GR
+Simits;Simit ring with Raisin-Cinnamon-Clove;;;1,00;EUR;EN
+Περιβαλλοντικό τέλος;Πιρούνι;;;0,05;EUR;GR
+Environmental fees;Fork;;;0,05;EUR;EN
+Περιβαλλοντικό τέλος;Μαχαίρι;;;0,05;EUR;GR
+Environmental fees;Knife;;;0,05;EUR;EN
+Περιβαλλοντικό τέλος;Κουτάλι;;;0,05;EUR;GR
+Environmental fees;Spoon;;;0,05;EUR;EN
+Περιβαλλοντικό τέλος;Κουτάκι;;;0,05;EUR;GR
+Environmental fees;Box;;;0,05;EUR;EN
+Περιβαλλοντικό τέλος;Καπάκι;;;0,05;EUR;GR
+Environmental fees;Cap;;;0,05;EUR;EN
