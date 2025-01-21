@@ -41,34 +41,6 @@ function displayMenu(menu) {
     const menuContainer = document.getElementById('menu');
     menuContainer.innerHTML = '';
 
-    // for (const category in menu) {
-    //     const categoryDiv = document.createElement('div');
-    //     categoryDiv.classList.add('category');
-
-    //     const categoryTitle = document.createElement('h2');
-    //     categoryTitle.textContent = category;
-    //     categoryDiv.appendChild(categoryTitle);
-
-    //     menu[category].forEach(product => {
-    //         const productDiv = document.createElement('div');
-    //         productDiv.classList.add('product');
-
-    //         const productName = document.createElement('span');
-    //         productName.textContent = `${product.name} (${product.quantity})`;
-    //         productDiv.appendChild(productName);
-
-    //         const productDescription = document.createElement('p');
-    //         productDescription.textContent = product.description;
-    //         productDescription.classList.add('description');
-    //         productDiv.appendChild(productDescription);
-
-    //         const productPrice = document.createElement('span');
-    //         productPrice.textContent = product.price;
-    //         productDiv.appendChild(productPrice);
-
-    //         categoryDiv.appendChild(productDiv);
-    //     });
-
     for (const category in menu) {
         const categoryDiv = document.createElement('div');
         categoryDiv.classList.add('category');
@@ -85,7 +57,9 @@ function displayMenu(menu) {
             productHeader.classList.add('product-header');
 
             const productName = document.createElement('span');
-            productName.textContent = `${product.name} (${product.quantity})`;
+            productName.textContent = product.quantity 
+            ? `${product.name} (${product.quantity})` 
+            : `${product.name}`;
             productName.classList.add('product-name');
             productHeader.appendChild(productName);
 
